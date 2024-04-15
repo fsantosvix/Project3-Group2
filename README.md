@@ -70,10 +70,24 @@ SCREENSHOT OF PIE CHART
 
 ## 4. Ethical Considerations
 
-1. Legal and ethical considerations when using data;
-2. Clear view AI;
-3. Considering the Algorithmic Bias;
-4. Consideration of Data Regulation related. 
+* **Legal and ethical considerations**
+
+   What we consider before starting the project:
+
+  1. Open and public sources without copy rights;
+  2. Transparency；
+  3. Legal compliance;
+  4. Data quality: credibility, accuracy and integrity;
+  5. Unbiased data. 
+ 
+  Therefore we have decided to acquire data from US government authorities, primarily focusing on three resources:
+  * Open Data DC.
+  * Astronomical Applications Department
+  * US Naval Observatory
+
+  We attempted to acquire data from various sources to mitigate the risks of data bias.
+ 
+
 
 ## 5. Data Sources
 
