@@ -70,7 +70,10 @@ SCREENSHOT OF PIE CHART
 
 ## 4. Ethical Considerations
 
-[LAURA TO ADD]
+1. Legal and ethical considerations when using data;
+2. Clear view AI;
+3. Considering the Algorithmic Bias;
+4. Consideration of Data Regulation related. 
 
 ## 5. Data Sources
 
@@ -83,4 +86,73 @@ This project utilises information from the following sources:
 
 To complete this project, our group sought assistance from the following:
 
-[LAURA TO ADD]
+## References:
+
+**Adelaide University AI**
+
+* **Seaborn**                                        
+Barplot - https://seaborn.pydata.org/generated/seaborn.barplot.html
+
+* **Seaborn Colours** –
+https://medium.com/swlh/how-to-create-a-seaborn-palette-that-highlights-maximum-value-f614aecd706b
+
+* **COMMAS ON GRAPH**
+https://www.geeksforgeeks.org/print-number-commas-1000-separators-python/
+
+    ![alt text][def2]
+
+* **OpenAI. (2024). ChatGPT.**                      
+Retrieved April 11, 2024 from https://openai.com/chatgpt 
+![alt text][def]   https://openai.com/chatgpt
+
+Get instant answers, find creative inspiration, learn something new. 
+              ![alt text][def3]
+
+
+* **OpenData DC. (2024). ** 
+Streetlight Locations.**    
+Retrieved April 4, 2024, from https://opendata.dc.gov/datasets/6cb6520725b0489d9a209a337818fad1_90/explore?location=38.894874%2C-77.022089%2C15.00
+
+* **Perchance. (2024). AI Text-to-Image Generator.**        
+Retrieved April 13, 2024, from https://perchance.org/ai-text-to-image-generator   
+* **Plotly. (2024). Mapbox Density Heatmaps.**     
+Retrieved April 9, 2024, from https://plotly.com/python/mapbox-density-heatmaps/
+* **U.S. Naval Observatory. (2023). Daylight Duration for Washington, DC.**                                  
+Retrieved April 4, 2024 from https://aa.usno.navy.mil/calculated/durdaydark?year=2023&task=1&lat=38.89&lon=-77.03&label=Washington%2C+DC&tz=5&tz_sign=-1&submit=Get+Data
+
+* **opendata.dc.gov**
+
+     **Street Lights**
+     This data is used for the planning and management of Street Lights - Assets, Activities, Incidents, as well as the maintenance of Street Light Features of the District Department of Transportation (DDOT).
+
+* **perchance.org**
+
+   **AI Image Generator (free, no sign-up, unlimited)**
+   AI text to image generator. Generate AI art from text, completely free, online, no login or sign-up, no daily credit limits/restrictions/gimmicks, and it's fast. Other AI art generators have annoying daily credit limits and require sign-up, or are slow - this one doesn't. Use this AI to generate high quality art, photos, cartoons, drawings, anime, thumbnails, pfps, and more. Create OCs, anime characters, sexy AI villains, fanfic artwork, and pretty much anything else. It's an AI-based image generator that uses the Stable Diffusion text-to-image model. No watermark, no signup/login, unlimited images. Type words, make pics.
+   ![alt text](image-3.png)
+
+* **plotly.com**
+
+   **Mapbox**
+   Detailed examples of Mapbox Density Heatmap including changing color, size, log axes, and more in Python.
+
+* **MediumMedium**
+   
+   **How to Create a Seaborn Palette That Highlights Maximum Value**
+While working on my latest data science project, I realized I needed a way to quickly highlight the maximum value in each of my…
+Reading time
+4 min read
+Dec 9th, 2020
+
+   https://medium.com/swlh/how-to-create-a-seaborn-palette-that-highlights-maximum-value-f614aecd706b
+
+   ![alt text](image-4.png)
+* **GeeksforGeeks**
+
+   **Print number with commas as 1000 separators in Python - GeeksforGeeks**
+
+   A Computer Science portal for geeks. It contains well written, well thought and well explained computer science and programming articles, quizzes and practice/competitive programming/company interview Questions.
+
+[def]: image-1.png
+[def2]: image.png
+[def3]: image-2.png
