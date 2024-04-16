@@ -44,11 +44,11 @@ To reproduce this project and navigate accordingly, please follow the steps belo
 1. Create a new SQL Database in PostgreSQL.
 2. Create the tables in your new database using the createSchema.sql file from the SQL Files folder.
 3. Import the following CSV files:
-   a. LightDatabymonth2023.csv to the dates table
-   b. filteredDB.csv to the lights table
-4. Run the [*xxxx.ipynb*] file using your preferred IDE. For this project, we used VS Code and Jupyter Notebook.
+   a. dates.csv to the dates table
+   b. filteredDF.csv to the lights table
+4. Run the _Visualisation.ipynb_ file using your preferred IDE. For this project, we used VS Code and Jupyter Notebook.
 
-The [*xxxx.ipynb*] file connects to the SQL database. You must provide your username, password and port of the PostgreSQL server.
+The _Visualisation.ipynb_ file connects to the SQL database. You must provide your username, password and port of the PostgreSQL server.
 
 Once it is successfully connected, the code will generate three visualisations, being:
 
@@ -66,28 +66,27 @@ It allows you to navigate all of the District of Columbia’s street light types
 
 This chart contains a dropdown button to select specific streets from the District of Columbia and retrieves the composition of the street lights type from the selection. It also includes a slider command that permits the user to enlarge or shrink the chart’s size for better visualisation.
 
-SCREENSHOT OF PIE CHART
+![Image of street lights](Screenshots/Pie%20Chart.png)
 
 ## 4. Ethical Considerations
 
-* **Legal and ethical considerations**
+- **Legal and ethical considerations**
 
-   What we consider before starting the project:
+  What we consider before starting the project:
 
   1. Open and public sources without copy rights;
   2. Transparency；
   3. Legal compliance;
   4. Data quality: credibility, accuracy and integrity;
-  5. Unbiased data. 
- 
+  5. Unbiased data.
+
   Therefore we have decided to acquire data from US government authorities, primarily focusing on three resources:
-  * Open Data DC.
-  * Astronomical Applications Department
-  * US Naval Observatory
+
+  - Open Data DC.
+  - Astronomical Applications Department
+  - US Naval Observatory
 
   We attempted to acquire data from various sources to mitigate the risks of data bias.
- 
-
 
 ## 5. Data Sources
 
@@ -104,68 +103,68 @@ To complete this project, our group sought assistance from the following:
 
 **Adelaide University AI**
 
-* **Seaborn**                                        
-Barplot - https://seaborn.pydata.org/generated/seaborn.barplot.html
+- **Seaborn**  
+  Barplot - https://seaborn.pydata.org/generated/seaborn.barplot.html
 
-* **Seaborn Colours** –
-https://medium.com/swlh/how-to-create-a-seaborn-palette-that-highlights-maximum-value-f614aecd706b
+- **Seaborn Colours** –
+  https://medium.com/swlh/how-to-create-a-seaborn-palette-that-highlights-maximum-value-f614aecd706b
 
-* **COMMAS ON GRAPH**
-https://www.geeksforgeeks.org/print-number-commas-1000-separators-python/
+- **COMMAS ON GRAPH**
+  https://www.geeksforgeeks.org/print-number-commas-1000-separators-python/
 
-    ![alt text][def2]
+      ![alt text][def2]
 
-* **OpenAI. (2024). ChatGPT.**                      
-Retrieved April 11, 2024 from https://openai.com/chatgpt 
-![alt text][def]   https://openai.com/chatgpt
+- **OpenAI. (2024). ChatGPT.**  
+  Retrieved April 11, 2024 from https://openai.com/chatgpt
+  ![alt text][def] https://openai.com/chatgpt
 
-Get instant answers, find creative inspiration, learn something new. 
-              ![alt text][def3]
+Get instant answers, find creative inspiration, learn something new.
+![alt text][def3]
 
+- **OpenData DC. (2024). **
+  Streetlight Locations.\*\*  
+  Retrieved April 4, 2024, from https://opendata.dc.gov/datasets/6cb6520725b0489d9a209a337818fad1_90/explore?location=38.894874%2C-77.022089%2C15.00
 
-* **OpenData DC. (2024). ** 
-Streetlight Locations.**    
-Retrieved April 4, 2024, from https://opendata.dc.gov/datasets/6cb6520725b0489d9a209a337818fad1_90/explore?location=38.894874%2C-77.022089%2C15.00
+- **Perchance. (2024). AI Text-to-Image Generator.**  
+  Retrieved April 13, 2024, from https://perchance.org/ai-text-to-image-generator
+- **Plotly. (2024). Mapbox Density Heatmaps.**  
+  Retrieved April 9, 2024, from https://plotly.com/python/mapbox-density-heatmaps/
+- **U.S. Naval Observatory. (2023). Daylight Duration for Washington, DC.**  
+  Retrieved April 4, 2024 from https://aa.usno.navy.mil/calculated/durdaydark?year=2023&task=1&lat=38.89&lon=-77.03&label=Washington%2C+DC&tz=5&tz_sign=-1&submit=Get+Data
 
-* **Perchance. (2024). AI Text-to-Image Generator.**        
-Retrieved April 13, 2024, from https://perchance.org/ai-text-to-image-generator   
-* **Plotly. (2024). Mapbox Density Heatmaps.**     
-Retrieved April 9, 2024, from https://plotly.com/python/mapbox-density-heatmaps/
-* **U.S. Naval Observatory. (2023). Daylight Duration for Washington, DC.**                                  
-Retrieved April 4, 2024 from https://aa.usno.navy.mil/calculated/durdaydark?year=2023&task=1&lat=38.89&lon=-77.03&label=Washington%2C+DC&tz=5&tz_sign=-1&submit=Get+Data
+- **opendata.dc.gov**
 
-* **opendata.dc.gov**
+  **Street Lights**
+  This data is used for the planning and management of Street Lights - Assets, Activities, Incidents, as well as the maintenance of Street Light Features of the District Department of Transportation (DDOT).
 
-     **Street Lights**
-     This data is used for the planning and management of Street Lights - Assets, Activities, Incidents, as well as the maintenance of Street Light Features of the District Department of Transportation (DDOT).
+- **perchance.org**
 
-* **perchance.org**
+  **AI Image Generator (free, no sign-up, unlimited)**
+  AI text to image generator. Generate AI art from text, completely free, online, no login or sign-up, no daily credit limits/restrictions/gimmicks, and it's fast. Other AI art generators have annoying daily credit limits and require sign-up, or are slow - this one doesn't. Use this AI to generate high quality art, photos, cartoons, drawings, anime, thumbnails, pfps, and more. Create OCs, anime characters, sexy AI villains, fanfic artwork, and pretty much anything else. It's an AI-based image generator that uses the Stable Diffusion text-to-image model. No watermark, no signup/login, unlimited images. Type words, make pics.
+  ![alt text](image-3.png)
 
-   **AI Image Generator (free, no sign-up, unlimited)**
-   AI text to image generator. Generate AI art from text, completely free, online, no login or sign-up, no daily credit limits/restrictions/gimmicks, and it's fast. Other AI art generators have annoying daily credit limits and require sign-up, or are slow - this one doesn't. Use this AI to generate high quality art, photos, cartoons, drawings, anime, thumbnails, pfps, and more. Create OCs, anime characters, sexy AI villains, fanfic artwork, and pretty much anything else. It's an AI-based image generator that uses the Stable Diffusion text-to-image model. No watermark, no signup/login, unlimited images. Type words, make pics.
-   ![alt text](image-3.png)
+- **plotly.com**
 
-* **plotly.com**
+  **Mapbox**
+  Detailed examples of Mapbox Density Heatmap including changing color, size, log axes, and more in Python.
 
-   **Mapbox**
-   Detailed examples of Mapbox Density Heatmap including changing color, size, log axes, and more in Python.
+- **MediumMedium**
 
-* **MediumMedium**
-   
-   **How to Create a Seaborn Palette That Highlights Maximum Value**
-While working on my latest data science project, I realized I needed a way to quickly highlight the maximum value in each of my…
-Reading time
-4 min read
-Dec 9th, 2020
+  **How to Create a Seaborn Palette That Highlights Maximum Value**
+  While working on my latest data science project, I realized I needed a way to quickly highlight the maximum value in each of my…
+  Reading time
+  4 min read
+  Dec 9th, 2020
 
-   https://medium.com/swlh/how-to-create-a-seaborn-palette-that-highlights-maximum-value-f614aecd706b
+  https://medium.com/swlh/how-to-create-a-seaborn-palette-that-highlights-maximum-value-f614aecd706b
 
-   ![alt text](image-4.png)
-* **GeeksforGeeks**
+  ![alt text](image-4.png)
 
-   **Print number with commas as 1000 separators in Python - GeeksforGeeks**
+- **GeeksforGeeks**
 
-   A Computer Science portal for geeks. It contains well written, well thought and well explained computer science and programming articles, quizzes and practice/competitive programming/company interview Questions.
+  **Print number with commas as 1000 separators in Python - GeeksforGeeks**
+
+  A Computer Science portal for geeks. It contains well written, well thought and well explained computer science and programming articles, quizzes and practice/competitive programming/company interview Questions.
 
 [def]: image-1.png
 [def2]: image.png
