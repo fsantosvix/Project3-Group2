@@ -2,7 +2,7 @@
 
 # District of Columbia Street Lights Analysis
 
-![Image of street lights](Extras/pexels-karol-d-1013516.jpg)
+![Image of street lights](Screenshots/pexels-karol-d-1013516.jpg)
 
 ## 1. Overview
 
