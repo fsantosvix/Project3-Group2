@@ -34,8 +34,8 @@ As you delve into the depths of this document, prepare to be dazzled by the step
 
 - [Ipywidgets](https://github.com/jupyter-widgets/ipywidgets#readme) – a Python library used to create interactive widgets. It was used to add user interaction to the pie chart with a dropdown menu and a slider.
 - [Seaborn](https://seaborn.pydata.org) – a Python data visualisation library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics. This library was used to generate the bar chart.
-- [GeoPandas](https://pypi.org/project/geopandas/) - GeoPandas aids working with geospatial data in python. It combines the capabilities of pandas and shapely, providing geospatial operations in pandas and a high-level interface to multiple geometries to shapely. 
-- [Shapely.Geometry](https://pypi.org/project/geopandas/) - It is widely used in conjunction with other libraries for geospatial analysis, including GeoPandas.
+- [GeoPandas](https://pypi.org/project/geopandas/) - GeoPandas aids working with geospatial data in python. It combines the capabilities of pandas and shapely, providing geospatial operations in pandas and a high-level interface to multiple geometries to shapely.
+- [Shapely.Geometry](https://shapely.readthedocs.io/en/stable/geometry.html) - It is widely used in conjunction with other libraries for geospatial analysis, including GeoPandas.
 - [Plotly.Express](https://plotly.com/python/mapbox-density-heatmaps/) - Plotly Express is a straightforward, high-level interface to Plotly, which operates on a variety of types of data and enables simple to adjust visualisations.
 
 ## 3. Instructions
@@ -73,50 +73,42 @@ This chart contains a dropdown button to select specific streets from the Distri
 
 ## 4. Ethical Considerations
 
-- **Legal and ethical considerations**
+Data ethics is paramount when integrating external data into a project as it ensures the responsible and equitable use of information. Compliance with data ethics when utilizing external data sources involves several key practices.
 
-  What we consider before starting the project:
+Firstly, transparency is crucial; our group ensured that all information is copyright free and acknowledged all sources in a dedicated session, providing the links to access the data if required.
 
-  1. Open and public sources without copy rights;
-  2. Transparency；
-  3. Legal compliance;
-  4. Data quality: credibility, accuracy and integrity;
-  5. Unbiased data.
+Additionally, rigorously assess the data for biases, inaccuracies, and potential negative impacts on individuals or communities; when selecting the theme for the project, we prioritised a subject that would not touch sensitive matters and carefully selected data sources that were reliable and less exposed to any bias.
 
-  Therefore we have decided to acquire data from US government authorities, primarily focusing on three resources:
-
-  - Open Data DC.
-  - Astronomical Applications Department
-  - US Naval Observatory
-
-  We attempted to acquire data from various sources to mitigate the risks of data bias.
+Lastly, in an increasingly data-driven environment, fostering a culture of ethical awareness and accountability can promote ongoing adherence to data ethics principles not only within the members of the group but also positively influence those we interact regularly.
 
 ## 5. Data Sources
 
-This project utilises information from the following sources:
+This project utilises data collected from the following sources:
 
-edX Boot Camps. (2024). Xpert Learning Assistant. Retrieved April 12, 2024, from https://bootcampspot.instructure.com/courses/4781/external_tools/313
+- OpenData DC. (2024). Streetlight Locations. Retrieved April 4, 2024, from https://opendata.dc.gov/datasets/6cb6520725b0489d9a209a337818fad1_90/explore?location=38.894874%2C-77.022089%2C15.00
 
-GeeksforGeeks. (2022). Print number with commas as 1000 separators in Python. GeeksforGeeks. Retrieved April 11, 2024, from https://www.geeksforgeeks.org/print-number-commas-1000-separators-python/
+- U.S. Naval Observatory. (2023). Daylight Duration for Washington, DC. Retrieved April 4, 2024 from https://aa.usno.navy.mil/calculated/durdaydark?year=2023&task=1&lat=38.89&lon=-77.03&label=Washington%2C+DC&tz=5&tz_sign=-1&submit=Get+Data
 
-GeoPandas. (2024). PyPI. Retrieved April 11, 2024 from https://pypi.org/project/geopandas/
+## 6. Other References
 
-ipywidgets. (2023). Widget Basics. Retrieved April 12, 2024, from https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20Basics.html
+To complete this project, our group sought assistance from the following:
 
-Karol, D. (2024). Time-lapse photography of road during night time. Pexels. Retrieved April 16, 2024, from https://www.pexels.com/photo/time-lapse-photography-of-road-during-night-time-1013516/
+- edX Boot Camps. (2024). Xpert Learning Assistant. Retrieved April 12, 2024, from https://bootcampspot.instructure.com/courses/4781/external_tools/313
 
-Knee, S. (2020). How to create a seaborn palette that highlights maximum value. Medium. Retrieved April 12, 2024, from https://medium.com/swlh/how-to-create-a-seaborn-palette-that-highlights-maximum-value-f614aecd706b
+- GeeksforGeeks. (2022). Print number with commas as 1000 separators in Python. GeeksforGeeks. Retrieved April 11, 2024, from https://www.geeksforgeeks.org/print-number-commas-1000-separators-python/
 
-OpenAI. (2024). ChatGPT. Retrieved April 11, 2024 from https://openai.com/chatgpt
+- GeoPandas. (2024). PyPI. Retrieved April 11, 2024 from https://pypi.org/project/geopandas/
 
-OpenData DC. (2024). Streetlight Locations. Retrieved April 4, 2024, from https://opendata.dc.gov/datasets/6cb6520725b0489d9a209a337818fad1_90/explore?location=38.894874%2C-77.022089%2C15.00
+- ipywidgets. (2023). Widget Basics. Retrieved April 12, 2024, from https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20Basics.html
 
-Perchance. (2024). AI Text-to-Image Generator. Retrieved April 13, 2024, from https://perchance.org/ai-text-to-image-generator
+- Karol, D. (2024). Time-lapse photography of road during night time. Pexels. Retrieved April 16, 2024, from https://www.pexels.com/photo/time-lapse-photography-of-road-during-night-time-1013516/
 
-Plotly. (2024). Mapbox Density Heatmaps. Retrieved April 9, 2024, from https://plotly.com/python/mapbox-density-heatmaps/
+- Knee, S. (2020). How to create a seaborn palette that highlights maximum value. Medium. Retrieved April 12, 2024, from https://medium.com/swlh/how-to-create-a-seaborn-palette-that-highlights-maximum-value-f614aecd706b
 
-Seaborn. (2024). seaborn.barplot. Retrieved April 9, 2024, from https://seaborn.pydata.org/generated/seaborn.barplot.html
+- OpenAI. (2024). ChatGPT. Retrieved April 11, 2024 from https://openai.com/chatgpt
 
-U.S. Naval Observatory. (2023). Daylight Duration for Washington, DC. Retrieved April 4, 2024 from https://aa.usno.navy.mil/calculated/durdaydark?year=2023&task=1&lat=38.89&lon=-77.03&label=Washington%2C+DC&tz=5&tz_sign=-1&submit=Get+Data
+- Perchance. (2024). AI Text-to-Image Generator. Retrieved April 13, 2024, from https://perchance.org/ai-text-to-image-generator
 
+- Plotly. (2024). Mapbox Density Heatmaps. Retrieved April 9, 2024, from https://plotly.com/python/mapbox-density-heatmaps/
 
+- Seaborn. (2024). seaborn.barplot. Retrieved April 9, 2024, from https://seaborn.pydata.org/generated/seaborn.barplot.html

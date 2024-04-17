@@ -1,4 +1,4 @@
 # Files to be ignored
 .DS_Store
-.py
+config.py
 __pycache__/
